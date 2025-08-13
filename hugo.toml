@@ -6,14 +6,14 @@ defaultcontentlanguage = "en"
 
 
 [pagination]
-pagerSize = 20
+    pagerSize = 20
 
 [services]
 [services.disqus]
-shortname = "Ulugbek"
+    shortname = "Ulugbek"
 
 [markup.highlight]
-style = "github-dark"
+    style = "github-dark"
 
 [params]
   author = "Ergashev Ulug'bek"
@@ -90,3 +90,7 @@ style = "github-dark"
   name = "Portfolio"
   weight = 3
   url = "portfolio/"
+
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
