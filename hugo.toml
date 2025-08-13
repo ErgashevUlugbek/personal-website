@@ -1,0 +1,92 @@
+baseurl = "http://www.example.com"
+title = "ulugbek"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+shortname = "Ulugbek"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Ergashev Ulug'bek"
+  info = "Programmer | CS Student"
+  description = "Ergashev Ulugbek's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/images/favicon/favicon.svg"
+  favicon_32 = "/images/favicon/favicon-32x32.png"
+  favicon_16 = "/images/favicon/favicon-16x16.png"
+
+  since = 2018
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 2
+  url = "https://github.com/ErgashevUlugbek/"
+  target = "_blank"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 1
+  url = "https://linkedin.com/in/ergashev-ulugbek/"
+  target = "_blank"
+[[params.social]]
+  name = "Leetcode"
+  icon = "fa-solid fa-code fa-2x"
+  weight = 5
+  url = "https://leetcode.com/u/eulugbek2000/"
+  target = "_blank"
+[[params.social]]
+  name = "Email"
+  icon = "fa-regular fa-envelope fa-2x"
+  weight = 4
+  url = "mailto:eulugbek2000@gmail.com"
+  target = "_blank"
+[[params.social]]
+  name = "Telegram"
+  icon = "fa-regular fa-paper-plane fa-2x"
+  weight = 3
+  url = "https://t.me/Ergashev2000"
+  target = "_blank"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
+
+[[menu.main]]
+  name = "Portfolio"
+  weight = 3
+  url = "portfolio/"
